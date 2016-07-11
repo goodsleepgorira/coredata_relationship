@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		8870837B1D33700C00BE40EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8870837A1D33700C00BE40EC /* AppDelegate.swift */; };
-		8870837D1D33700C00BE40EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8870837C1D33700C00BE40EC /* ViewController.swift */; };
 		887083801D33700C00BE40EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8870837E1D33700C00BE40EC /* Main.storyboard */; };
 		887083831D33700C00BE40EC /* Relationship.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 887083811D33700C00BE40EC /* Relationship.xcdatamodeld */; };
 		887083851D33700C00BE40EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887083841D33700C00BE40EC /* Assets.xcassets */; };
 		887083881D33700C00BE40EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887083861D33700C00BE40EC /* LaunchScreen.storyboard */; };
+		887083931D3372F100BE40EC /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8870838F1D3372F100BE40EC /* Student+CoreDataProperties.swift */; };
+		887083941D3372F100BE40EC /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887083901D3372F100BE40EC /* Student.swift */; };
+		887083951D3372F100BE40EC /* Club+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887083911D3372F100BE40EC /* Club+CoreDataProperties.swift */; };
+		887083961D3372F100BE40EC /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887083921D3372F100BE40EC /* Club.swift */; };
+		887083981D3373A700BE40EC /* StudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887083971D3373A700BE40EC /* StudentTableViewController.swift */; };
+		8870839A1D3387C700BE40EC /* ClubTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887083991D3387C700BE40EC /* ClubTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		887083771D33700C00BE40EC /* Relationship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relationship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8870837A1D33700C00BE40EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8870837C1D33700C00BE40EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8870837F1D33700C00BE40EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		887083821D33700C00BE40EC /* Relationship.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Relationship.xcdatamodel; sourceTree = "<group>"; };
 		887083841D33700C00BE40EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		887083871D33700C00BE40EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		887083891D33700C00BE40EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8870838F1D3372F100BE40EC /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		887083901D3372F100BE40EC /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		887083911D3372F100BE40EC /* Club+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Club+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		887083921D3372F100BE40EC /* Club.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		887083971D3373A700BE40EC /* StudentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTableViewController.swift; sourceTree = "<group>"; };
+		887083991D3387C700BE40EC /* ClubTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClubTableViewController.swift; path = ../ClubTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,10 @@
 		8870836E1D33700C00BE40EC = {
 			isa = PBXGroup;
 			children = (
+				8870838F1D3372F100BE40EC /* Student+CoreDataProperties.swift */,
+				887083901D3372F100BE40EC /* Student.swift */,
+				887083911D3372F100BE40EC /* Club+CoreDataProperties.swift */,
+				887083921D3372F100BE40EC /* Club.swift */,
 				887083791D33700C00BE40EC /* Relationship */,
 				887083781D33700C00BE40EC /* Products */,
 			);
@@ -57,7 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				8870837A1D33700C00BE40EC /* AppDelegate.swift */,
-				8870837C1D33700C00BE40EC /* ViewController.swift */,
+				887083971D3373A700BE40EC /* StudentTableViewController.swift */,
+				887083991D3387C700BE40EC /* ClubTableViewController.swift */,
 				8870837E1D33700C00BE40EC /* Main.storyboard */,
 				887083841D33700C00BE40EC /* Assets.xcassets */,
 				887083861D33700C00BE40EC /* LaunchScreen.storyboard */,
@@ -139,7 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				887083831D33700C00BE40EC /* Relationship.xcdatamodeld in Sources */,
-				8870837D1D33700C00BE40EC /* ViewController.swift in Sources */,
+				887083981D3373A700BE40EC /* StudentTableViewController.swift in Sources */,
+				887083931D3372F100BE40EC /* Student+CoreDataProperties.swift in Sources */,
+				887083961D3372F100BE40EC /* Club.swift in Sources */,
+				887083951D3372F100BE40EC /* Club+CoreDataProperties.swift in Sources */,
+				8870839A1D3387C700BE40EC /* ClubTableViewController.swift in Sources */,
+				887083941D3372F100BE40EC /* Student.swift in Sources */,
 				8870837B1D33700C00BE40EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,9 +1,5 @@
 //
 //  AppDelegate.swift
-//  Relationship
-//
-//  Created by 齋藤緒 on 2016/07/10.
-//  Copyright © 2016年 TestOrganization. All rights reserved.
 //
 
 import UIKit
