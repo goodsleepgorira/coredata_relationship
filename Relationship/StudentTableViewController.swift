@@ -47,7 +47,7 @@ class StudentTableViewController: UITableViewController {
     
     
  
-    //本を保存するメソッド
+    //検証用データを保存するメソッド
     func insertData(){
         
         do {
